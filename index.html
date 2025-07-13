@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The King's Gym | Forge Your Legacy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="loader">
+    <div class="loader-bar"></div>
+  </div>
+
+  <nav class="navbar">
+    <a href="#" class="navbar__logo">The King's Gym</a>
+    <div class="navbar__links">
+      <a href="#features" class="navbar__link">Features</a>
+      <a href="#plans" class="navbar__link">Plans</a>
+      <a href="#contact" class="navbar__link">Contact</a>
+    </div>
+    <a href="#plans" class="navbar__cta">Join Now</a>
+  </nav>
+
+  <main class="main-content">
+    <header class="hero">
+      <div class="hero__background"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">
+          <span class="hero__title-line">FORGE YOUR</span>
+          <span class="hero__title-line hero__title-line--stroked">LEGACY</span>
+        </h1>
+        <p class="hero__subtitle">Welcome to The King's Gym, where strength is forged and limits are shattered. This is not just a gym; it's the proving ground for your ambition.</p>
+        <div class="hero__cta-container">
+          <a href="#plans" class="hero__cta">Become a Beast</a>
+          <a href="#contact" class="hero__cta hero__cta--secondary">Book Free Trial</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+        <section class="section-intro">
+            <div class="intro__text-wrapper">
+            <p class="intro__text">We are an ecosystem of <span class="highlight">strength</span>, a sanctuary of <span class="highlight">power</span>, and the catalyst for your <span class="highlight">transformation</span>.</p>
+            </div>
+        </section>
+
+        <section class="section-features">
+            <div class="feature-card" id="feature-1">
+            <div class="feature-card__image-wrapper">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" alt="Zumba Classes">
+            </div>
+            <div class="feature-card__content">
+                <h2 class="feature-card__title">ZUMBA CLASSES</h2>
+                <p class="feature-card__text">Experience the ultimate dance fitness workout! Our high-energy Zumba classes combine Latin rhythms with cardio exercises to help you burn calories while having fun. Perfect for all fitness levels.</p>
+                <div class="feature-price">
+                    <span class="price-amount">₹1500</span>
+                    <span class="price-period">/month</span>
+                </div>
+                <a href="#contact" class="feature-cta">Join Zumba</a>
+            </div>
+            </div>
+            <div class="feature-card" id="feature-2">
+            <div class="feature-card__image-wrapper">
+                <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=800&q=80" alt="Expert trainers">
+            </div>
+            <div class="feature-card__content">
+                <h2 class="feature-card__title">EXPERT TRAINERS</h2>
+                <p class="feature-card__text">Our certified trainers are the architects of your success. They provide personalized guidance, unwavering motivation, and strategies that deliver results.</p>
+                <div class="feature-trial">
+                    <span class="trial-text">Special Trial with Trainers</span>
+                    <span class="trial-price">₹500</span>
+                    <span class="trial-duration">/day</span>
+                    <span class="trial-text">Normal Training</span>
+                    <span class="trial-price">₹200</span>
+                    <span class="trial-duration">/day</span>
+                </div>
+                <a href="#contact" class="feature-cta">Book Trial</a>
+            </div>
+            </div>
+        </section>
+
+        <div class="section-divider-wrapper">
+          <div class="section-divider"></div>
+        </div>
+
+        <section id="trainers" class="section-trainers">
+            <h2 class="section-title">Meet Our Expert Trainers</h2>
+            <p class="trainers-subtitle">Our elite team of certified professionals is here to transform your fitness journey</p>
+            <div class="trainers-container">
+                <div class="trainer-card">
+                    <div class="trainer-card__image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=500&q=80" alt="Alex Johnson - Head Trainer">
+                    </div>
+                    <div class="trainer-card__content">
+                        <h3 class="trainer-card__name">Alex "The Tank" Johnson</h3>
+                        <p class="trainer-card__specialty">Head Strength & Conditioning Coach</p>
+                        <p class="trainer-card__experience">10+ Years Experience</p>
+                        <p class="trainer-card__description">Certified personal trainer specializing in strength training, muscle building, and athletic performance. Alex has helped hundreds of clients achieve their fitness goals through personalized training programs.</p>
+                        <div class="trainer-card__certifications">
+                            <span class="certification">NASM Certified</span>
+                            <span class="certification">Strength Coach</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-card__image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1594882645126-14020914d58d?auto=format&fit=crop&w=500&q=80" alt="Maria Rodriguez - Fitness Specialist">
+                    </div>
+                    <div class="trainer-card__content">
+                        <h3 class="trainer-card__name">Maria "Iron" Rodriguez</h3>
+                        <p class="trainer-card__specialty">Fitness & Wellness Specialist</p>
+                        <p class="trainer-card__experience">8+ Years Experience</p>
+                        <p class="trainer-card__description">Expert in bodybuilding, weight loss, and functional fitness. Maria creates customized nutrition and workout plans that deliver sustainable results for clients of all fitness levels.</p>
+                        <div class="trainer-card__certifications">
+                            <span class="certification">ACE Certified</span>
+                            <span class="certification">Nutrition Coach</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider-wrapper">
+          <div class="section-divider"></div>
+        </div>
+
+        <section id="facilities" class="section-facilities">
+          <div class="facilities-container">
+            <div class="facilities-left">
+              <h2 class="facilities-title">Our Facilities</h2>
+              <p class="facilities-desc">Step into our state-of-the-art gym and be amazed by the array of top-notch equipment, dedicated workout spaces, and modern amenities. Our facility is designed to provide you with the ultimate training experience</p>
+              <img class="facilities-image" src="gym2.webp">
+            </div>
+            <div class="facilities-right">
+              <div class="facility-feature">
+                <div class="facility-icon"><i class="fas fa-dumbbell"></i></div>
+                <div>
+                  <h3>Meet Our Trainers</h3>
+                  <p>Our team of experienced and passionate trainers is here to guide you every step of the way. With their expertise in diverse fitness disciplines, they will create personalized programs tailored to your individual needs</p>
+                </div>
+                    </div>
+              <div class="facility-feature">
+                <div class="facility-icon"><i class="fas fa-id-card-alt"></i></div>
+                <div>
+                  <h3>Membership Plans</h3>
+                  <p>Discover our flexible and affordable membership options to find the perfect fit for your fitness needs. Whether you're a seasoned athlete or just starting your journey, we have a plan that will cater to your goals and budget</p>
+                </div>
+                    </div>
+              <div class="facility-feature">
+                <div class="facility-icon"><i class="fas fa-crown"></i></div>
+                <div>
+                  <h3>Exclusive Amenities</h3>
+                  <p>Elevate your fitness experience with our exclusive amenities, designed to enhance your workout and provide ultimate comfort. From our luxurious locker rooms to our rejuvenating post-workout recovery area, we've thought of every detail to make your time at our gym truly exceptional!</p>
+                </div>
+                    </div>
+              <div class="facility-feature">
+                <div class="facility-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                <div>
+                  <h3>Zumba classes  </h3>
+                  <p>Join our dynamic group of Zumba classes, led by expert instructors, to stay motivated and achieve your goals in a fun, supportive environment .<span class="highlight">Just for 15k rs/month</span></p>
+                </div>
+              </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider-wrapper">
+          <div class="section-divider"></div>
+        </div>
+
+        <section id="plans" class="section-plans">
+        <h2 class="section-title">Membership Tiers</h2>
+        <div class="plans-container">
+            <div class="plan-card">
+            <div class="plan-card__header">
+                <h3>KNIGHT</h3>
+                <p class="plan-card__price">₹1.5k<span>/mo</span></p><p>+500rs=diet</p>
+            </div>
+            <ul class="plan-card__features">
+                <li>24/7 Gym Access</li>
+                <li>Full Range of Equipment</li>
+                <li>Cardio Area</li>
+                <li>Training</li>
+            </ul>
+            <a href="#" class="plan-card__cta">Select Plan</a>
+            </div>
+            <div class="plan-card plan-card--featured">
+            <div class="plan-card__header">
+                <h3>Personal Trainer</h3>
+                <p class="plan-card__price">₹15k<span>/mo</span></p><p>₹40k<span>/3mo</span></p>
+            </div>
+            <ul class="plan-card__features">
+                <li>Speacial trainer 24*7 in gym for you</li>
+                <li>All Equipment</li>
+                <li>Cardio Area</li>
+                <li>Training</li>
+            </ul>
+            <a href="#" class="plan-card__cta">Select Plan</a>
+            </div>
+            <div class="plan-card">
+            <div class="plan-card__header">
+                <h3>1 + 1 training </h3>
+                <p class="plan-card__price">₹24k <span>/year</span></p>
+            </div>
+            <ul class="plan-card__features">
+                <li><span class="highlight">This is plan for 2 person they can join gym with a single payment of 24k rs per year.</span></li>
+                <li>All Equipment Access</li>
+                <li>Training Sessions</li>
+                <li>Cardio</li>
+                
+            </ul>
+            <a href="#" class="plan-card__cta">Select Plan</a>
+            </div>
+        </div>
+        </section>
+
+        <section id="special-offers" class="section-special-offers">
+            <div class="offers-container">
+                <div class="offer-card">
+                    <div class="offer-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=600&q=80" alt="Zumba Classes">
+                    </div>
+                    <div class="offer-content">
+                        <h3 class="offer-title">Zumba Classes</h3>
+                        <p class="offer-description">Experience the ultimate dance fitness workout! Our high-energy Zumba classes combine Latin rhythms with cardio exercises to help you burn calories while having fun. Perfect for all fitness levels.</p>
+                        <div class="offer-price">
+                            <span class="price-amount">1500</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <a href="#contact" class="offer-cta">Join Now</a>
+                    </div>
+                </div>
+                
+                <div class="trial-card">
+                    <div class="trial-content">
+                        <h3 class="trial-title">Special Trial Offers</h3>
+                        <div class="trial-options">
+                            <div class="trial-option">
+                                <span class="trial-type">Special Trial with Trainers</span>
+                                <span class="trial-price">₹500</span>
+                                <span class="trial-duration">/day</span>
+                            </div>
+                            <div class="trial-option">
+                                <span class="trial-type">Normal Trial</span>
+                                <span class="trial-price">₹200</span>
+                                <span class="trial-duration">/day</span>
+                            </div>
+                        </div>
+                        <p class="trial-note">Experience our world-class facilities and expert guidance before committing to a membership.</p>
+                        <a href="#contact" class="trial-cta">Book Your Trial</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider-wrapper">
+          <div class="section-divider"></div>
+        </div>
+
+        <section id="testimonials" class="section-testimonials">
+            <h2 class="section-title">Success Stories</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"The King's Gym is more than a gym. It's a community that pushes you to be your absolute best. The trainers here are architects of strength."</p>
+                    <h4 class="testimonial-author">- Michael R.</h4>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"I've never felt stronger or more confident. The personalized plans and elite equipment made all the difference in my fitness journey."</p>
+                    <h4 class="testimonial-author">- Jessica L.</h4>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"From the atmosphere to the expert guidance, everything is top-tier. Joining was the best decision I've ever made for my health."</p>
+                    <h4 class="testimonial-author">- David Chen</h4>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider-wrapper">
+          <div class="section-divider"></div>
+        </div>
+
+        <section id="gallery" class="section-gallery">
+            <h2 class="section-title">Explore The Gym</h2>
+            <div class="gallery-slider">
+                <div class="gallery-track">
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80" alt="Gym equipment">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=800&q=80" alt="Weight training area">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80" alt="Cardio zone">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" alt="Modern gym equipment">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=80" alt="Locker room">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80" alt="Fitness studio">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=800&q=80" alt="Group training">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" alt="Strength training">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=800&q=80" alt="Gym atmosphere">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=800&q=80" alt="Premium facilities">
+                    </div>
+                    <!-- Duplicate slides for seamless loop -->
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80" alt="Gym equipment">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=800&q=80" alt="Weight training area">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80" alt="Cardio zone">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" alt="Modern gym equipment">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=80" alt="Locker room">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80" alt="Fitness studio">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=800&q=80" alt="Group training">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" alt="Strength training">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=800&q=80" alt="Gym atmosphere">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=800&q=80" alt="Premium facilities">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider-wrapper">
+          <div class="section-divider"></div>
+        </div>
+
+        <section id="owner-story" class="section-owner">
+            <div class="owner-container">
+                <div class="owner-image">
+                    <img src="owner.png">
+                </div>
+                <div class="owner-text">
+                    <h2 class="section-title">The Mind Behind The Muscle</h2>
+                    <h3>Kapil Gujar, Founder</h3>
+                    <p>Kapil Gujar didn't just build a gym; he forged an empire of strength from his own journey. Once an underdog, he discovered the power of discipline and dedication in the gym, transforming his body and his life. He created The King's Gym not just as a place with weights, but as a kingdom for everyone to build their own legacy. His philosophy is simple: "Every drop of sweat is a jewel in your crown."</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider-wrapper">
+          <div class="section-divider"></div>
+        </div>
+
+        <section id="contact" class="section-contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="contact-subtitle">Have questions or ready to start? We're here to help you begin your journey to greatness.</p>
+                    <ul class="contact-details">
+                        <li><span class="contact-icon">📍</span> M-__ Shivalik Nagar, Haridwar, India</li>
+                        <li><span class="contact-icon">✉️</span> contact@thekingsgym.com</li>
+                        <li><span class="contact-icon">📞</span> +91 9758867778</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email"  placeholder=" ">
+                            <label for="email">Your Email (Optional)</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" required placeholder=" ">
+                            <label for="phone">Your Phone</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="membership" name="membership" required>
+                                <option value="">KnightPlan (₹1500/mo)</option>
+                                
+                                <option value="personal-trainer">Personal Trainer (₹15k/mo)(₹40k/3mo)</option>
+                                <option value="1-+-1-training ">1 + 1 training  (₹24k/year)</option>
+                                <option value="Special-training">Special Training (₹500/day)</option>
+                                <option value="normal-training">Normal Training (₹200/day)</option>
+                                <option value="gzumba-classes">Zumba Classes(₹1500/mo)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="cta__button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+            <div class="footer__content">
+                <h2 class="footer__title">THE KING'S GYM</h2>
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/kapil_gujjar_fitness_icon" target="_blank" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/thekingsgym" target="_blank" aria-label="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/thekingsgym" target="_blank" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@thekingsgym" target="_blank" aria-label="Subscribe to our YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                &copy; 2025 The King's Gym. Cowebsmith
+            </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.45/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Smooth scroll for navbar links
+    document.querySelectorAll('.navbar__link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html> 
