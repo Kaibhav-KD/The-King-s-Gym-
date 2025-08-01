@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://thekingsgym.com/sitemap.xml
+
+# Host
+Host: https://thekingsgym.com 
